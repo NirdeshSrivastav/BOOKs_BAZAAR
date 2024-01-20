@@ -1,0 +1,103 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 4, 2024, 12:05:36 PM
+    Author     : sriva
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+   /*background-color: hotpink;*/ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  border: 2px dotted gray;
+  height: 80%;
+  width: 90%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.inputs{
+    height: 40%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.inp {
+  height: 40%;
+  width: 80%;
+  /* border-radius: 30px; */
+  background-color: transparent;
+  padding: 6px;
+  border: none;
+  border-bottom: 3px solid green;
+}
+
+.inp::placeholder {
+  color: green;
+  font-weight: 400;
+}
+
+.inp:focus {
+  outline: none;
+}
+
+.buttons {
+  height: 60%;
+  width: 100%;
+  /* background-color: gray; */
+  display: flex;
+  /*flex-direction: column;*/
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.buttons > button {
+  height: 30%;
+  width: 40%;
+  background-color: white;
+  border: 2px solid green;
+  border-radius: 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.buttons > button:hover,
+.buttons > button:focus {
+  background-color: rgb(16, 167, 16);
+  color: white;
+}
+
+@media screen and (min-width: 456px) {
+    body{
+        background-color: red;
+    }
+    .buttons {
+  height: 20%;
+  width: 40%;
+  /* background-color: gray; */
+  display: flex;
+  /*flex-direction: column;*/
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+}
+
+

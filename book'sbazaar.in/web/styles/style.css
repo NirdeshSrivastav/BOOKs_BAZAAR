@@ -1,0 +1,184 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.top {
+  height: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+.top > p {
+  font-size: 2.5em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 1000;
+}
+
+.buttons {
+  margin-top: 0.5rem;
+  height: 2.5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn {
+  height: 90%;
+  width: 30%;
+}
+
+.container {
+  margin-top: 2rem;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.content {
+  height: 90%;
+  width: 90%;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem; */
+}
+
+.content > p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.content > h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.9rem;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  height: 20rem;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  /* gr */
+  /* box-shadow: 2px 2px 200px 50px black; */
+}
+
+.category {
+  height: 40%;
+  width: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.head {
+  /* background-color: red; */
+  height: 25%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head > p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.3rem;
+  color: white;
+}
+.books {
+  /* background-color: blue; */
+  padding-left: 4rem;
+  padding-top: 1em;
+  height: 75%;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.books > a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color: white;
+  /* text-decoration: none; */
+}
+
+.contact {
+  height: 40%;
+  width: 100%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.social {
+  height: 30%;
+  width: 100%;
+  /* background-color: hotpink; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contacts {
+  height: 30%;
+  width: 100%;
+  /* background-color: hotpink; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.social > a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.contacts > a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 456px) {
+  .books {
+    /* background-color: blue; */
+    padding-left: 3em;
+    padding-top: 1em;
+    height: 75%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .btn {
+    height: 100%;
+    width: 15%;
+  }
+  /* body {
+    background-color: blue;
+  } */
+}
